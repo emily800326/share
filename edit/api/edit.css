@@ -1,0 +1,9 @@
+.tabledata  th td tr{
+  
+word-break:break-all; 
+}
+
+th{
+color:blue;
+white-space:nowrap;
+}

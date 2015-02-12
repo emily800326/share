@@ -1,0 +1,19 @@
+
+a:link {
+color: #3F7290;
+font-weight: bold;
+}
+
+tr th input {
+        width: 100%;
+        box-sizing: border-box;
+          word-break:break-all;
+    }
+
+
+.tabledata  th td tr{
+  width: 80%;
+  word-break:break-all;
+}
+
+

@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+	
+
+.loginframe{
+font: normal 15px arial,sans-serif;
+color: #777;
+
+border: #ccc 1px solid;
+-moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px#888;
+box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+width: 400px;
+height:170px;
+position:relative ;
+
+margin:0 auto; 
+top:200px;
+border-radius: 10px;
+
+}
+
+.input{
+position:relative;
+margin-top:50 px;
+padding: 10px;
+text-align: center;
+}
+
+
+.input input{
+	font-size: 20px;
+}
+
+.input input:focus{
+	outline:#4d90fe solid 1px;
+}
+
+.input input:hover{
+	outline:#4d90fe solid 1px;
+}
+
+#submit{
+	position: relative;
+	bottom: 0px;
+	/*right: -170px;*/
+	left:170px;
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	border: #ccc 1px solid;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+	border: 1px solid #3079ed;
+    color: #fff;
+	font-weight:bold;
+}
+
+#submit:hover{
+background-color: #357ae8;
+background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+}

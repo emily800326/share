@@ -1,0 +1,35 @@
+.dock {
+	position: relative;
+	height: 50px;
+	text-align: center;
+}
+#dock2 {
+	width: 100%;
+	bottom: 50px;
+	position: relative;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 70px;
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block;
+	font: bold 18px 微軟正黑體;
+	width: 40px;
+	color: #000;
+	bottom: 10px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none;
+	margin: 5px 10px 0px;
+	width: 100%;
+}
